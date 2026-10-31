@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- Property / Building Silhouette -->
+    <!-- Main High-rise Building -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M30,76 L30,34 L54,20 L78,34 L78,76 Z" />
+
+    <!-- Building Shadow / Contrast Accent -->
+    <path
+        android:fillColor="#E2E8F0"
+        android:pathData="M54,20 L78,34 L78,76 L54,76 Z" />
+
+    <!-- Roof Roofline Accent -->
+    <path
+        android:fillColor="#38BDF8"
+        android:pathData="M27,35.5 L54,19.5 L81,35.5 L78,38.5 L54,23.5 L30,38.5 Z" />
+
+    <!-- Building Windows Grid -->
+    <!-- Row 1 -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M37,40 h10 v8 h-10 z" />
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M61,40 h10 v8 h-10 z" />
+
+    <!-- Row 2 -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M37,52 h10 v8 h-10 z" />
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M61,52 h10 v8 h-10 z" />
+
+    <!-- Row 3 -->
+    <path
+        android:fillColor="#0284C7"
+        android:pathData="M37,64 h10 v8 h-10 z" />
+    <path
+        android:fillColor="#0369A1"
+        android:pathData="M61,64 h10 v8 h-10 z" />
+
+    <!-- Entrance Door -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M48,64 h12 v12 h-12 z" />
+
+    <!-- Key & Tenant Badge Emblem in Foreground Corner -->
+    <!-- Golden Key Circle Shield -->
+    <path
+        android:fillColor="#FFCA28"
+        android:pathData="M70,68 A12,12 0 1,0 70,92 A12,12 0 1,0 70,68 Z" />
+
+    <path
+        android:fillColor="#FFF59D"
+        android:pathData="M70,71 A9,9 0 1,0 70,89 A9,9 0 1,0 70,71 Z" />
+
+    <!-- Key Hole / Tenant Person Icon inside Badge -->
+    <path
+        android:fillColor="#0F172A"
+        android:pathData="M70,75 A3,3 0 1,0 70,81 A3,3 0 1,0 70,75 Z M64,86 C64,82.5 66.5,80.5 70,80.5 C73.5,80.5 76,82.5 76,86 Z" />
+
+</vector>
